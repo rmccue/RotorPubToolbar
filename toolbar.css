@@ -1,0 +1,100 @@
+#rotor_pubtoolbar {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	margin-bottom: 0;
+	z-index: 20;
+	box-shadow: none;
+	border-radius: 0;
+	border: none;
+
+	background: #333333;
+	background:    -moz-linear-gradient(top,  #444 0%, #333 100%);
+	background: -webkit-linear-gradient(top,  #444 0%, #333 100%);
+	background:      -o-linear-gradient(top,  #444 0%, #333 100%);
+	background:     -ms-linear-gradient(top,  #444 0%, #333 100%);
+	background:         linear-gradient(top,  #444 0%, #333 100%);
+	color: #ddd;
+}
+	#rotor_pubtoolbar .handlediv, #rotor_pubtoolbar .hndle {
+		display: none;
+	}
+	#rotor_pubtoolbar .inside {
+		margin: 0;
+	}
+
+	#rotor_pubtoolbar .spinner {
+		float: left;
+		background-color: #999;
+		background-position: center center;
+		margin-top: 0;
+		padding: 4px;
+		border: 1px solid #ddd;
+		border-radius: 6px;
+	}
+		#rotor_pubtoolbar #misc-publishing-actions .spinner {
+			margin-top: 3px;
+		}
+
+	#rotor_pubtoolbar a {
+		color: #999;
+	}
+		#rotor_pubtoolbar .submitdelete {
+			color: #FF0000;
+		}
+
+	#rotor_pubtoolbar #minor-publishing, #rotor_pubtoolbar #misc-publishing-actions {
+		float: left;
+		border-bottom: none;
+		box-shadow: none;
+		line-height: 20px;
+	}
+		#rotor_pubtoolbar #misc-publishing-actions {
+			padding: 0;
+			margin-top: 4px;
+		}
+		#rotor_pubtoolbar #misc-publishing-actions .misc-pub-section {
+			float: left;
+			border: 0;
+		}
+
+	#rotor_pubtoolbar #major-publishing-actions {
+		float: right;
+		clear: none;
+		margin-top: 0;
+		padding: 6px 0;
+		border: 0;
+	}
+		#rotor_pubtoolbar #save-action,
+		#rotor_pubtoolbar #delete-action,
+		#rotor_pubtoolbar #publishing-action {
+			text-align: left;
+			float: left;
+			display: inline-block;
+			margin-left: 10px;
+		}
+		#rotor_pubtoolbar #delete-action {
+			margin-top: 3px;
+		}
+
+
+/* Popups */
+#timestampdiv, #post-visibility-select, #post-status-select {
+	position: absolute;
+	bottom: 0;
+	background: #444;
+	padding: 12px 10px;
+	box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.5);
+}
+	#timestampdiv input, #timestampdiv select,
+	#post-visibility-select input,
+	#post-status-select select {
+		background: #666;
+		border: 0;
+		color: #fff;
+	}
+		#timestampdiv input {
+
+		}
